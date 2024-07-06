@@ -8,6 +8,8 @@ public class PlayerAnimation : MonoBehaviour
 
     PlayerStates playerStates;
 
+    public bool LOL;
+
     private Dictionary<int, string> intAnimations = new Dictionary<int, string>(){
         {0, "WalkUp"}, // up, walk
         {1, "WalkRight"}, // right, walk
