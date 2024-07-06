@@ -9,13 +9,13 @@ public class PlayerAnimation : MonoBehaviour
     PlayerStates playerStates;
 
     private Dictionary<int, string> intAnimations = new Dictionary<int, string>(){
-        {0, "WalkUp"}, // up, idle
-        {1, "WalkRight"}, // right, idle
-        {2, "WalkFront"}, // down, idle
-        {3, "WalkLeft"}, // left, idle
+        {0, "WalkUp"}, // up, walk
+        {1, "WalkRight"}, // right, walk
+        {2, "WalkDown"}, // down, walk
+        {3, "WalkLeft"}, // left, walk
         {4,"IdleUp"}, // up, idle
         {5,"IdleRight"}, // right, idle
-        {6,"IdleFront"}, // down, idle
+        {6,"IdleDown"}, // down, idle
         {7,"IdleLeft"}, // left, idle
     };
     public void Initialize(PlayerStates playerStates){
